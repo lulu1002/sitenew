@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.imagemcabeca img {
+    display: flex;  
+    border: 3px solid rgb(92, 203, 207);
+    border-radius: 50%;
+    
+}
+.imagemcabeca {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.titulo2 {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+h1 {
+    color: rgb(202, 202, 202);
+    font-size: 260%;
+}
+
+.galeria {
+    display: flex;
+    margin-top: 100px;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.galeria img {
+    border: 3px solid rgb(156, 235, 238);
+    border-radius: 5%;
+}
+
+.contato1 img {
+    border: 3px solid rgb(141, 240, 240);
+    border-radius: 50%;
+}
+.contato1 {
+    margin: 100px;
+}
+.contato1 a {
+    font-size: 200%;
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.contato1 a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 15, 15);
+    border-radius: 20%;
+}
